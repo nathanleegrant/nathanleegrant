@@ -1,0 +1,23 @@
+{
+  "name": "nlg.io",
+  "version": "1.0.0",
+  "description": "Static website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:html": "",
+    "build:css": "",
+    "build:js": "uglifyjs src/js/*.js -m -o dist/js/app.js",
+    "watch:ts": "tsc -w",
+    "watch:scss": "node-sass --watch src/assets/scss -o src/assets/css"
+  },
+  "author": "Nathan Lee Grant",
+  "license": "ISC",
+  "dependencies": {
+    "clean-css": "^4.1.11",
+    "html-minifier": "^3.5.17",
+    "node-sass": "^4.9.0",
+    "typescript": "^2.9.2",
+    "uglify-js": "^3.4.2"
+  }
+}

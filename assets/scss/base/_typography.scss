@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+h1 {
+    font-size: 5.327rem;
+    font-weight: 500;
+    line-height: 1.272;
+    position: relative;
+    left: -4px;
+    margin-top: 0;
+    @include breakpoint(medium) {
+        font-size: 6.777rem;
+    }
+}
+
+h2 {
+    font-size: 3.292rem;
+    font-weight: 500;
+    line-height: 1.272;
+    position: relative;
+    left: -3px;
+    @include breakpoint(medium) {
+        font-size: 4.188rem;
+    }
+}
+
+h3 {
+    font-size: 2.035rem;
+    font-weight: 500;
+    line-height: 1.13;
+    position: relative;
+    left: -2px;
+    @include breakpoint(medium) {
+        font-size: 2.588rem;
+    }
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.618;
+    position: relative;
+    left: -1px;
+    color: #666;
+}
+
+.wrap {
+    max-width: 59rem;
+}
