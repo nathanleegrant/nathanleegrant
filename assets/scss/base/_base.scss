@@ -7,16 +7,17 @@
 
 html {
     font-size: 62.5%;
-    cursor: url(../cursors/default/default.cur) 4 4,
-            url(../cursors/default/default.svg) 4 4, 
-            url(../cursors/default/default.png) 4 4,
-            default;
 }
 
 body {
     font-family: Arial, sans-serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
+
+    cursor: url(../cursors/default/default.cur) 4 4,
+            url(../cursors/default/default.svg) 4 4, 
+            url(../cursors/default/default.png) 4 4,
+            default;
 }
 
 /* COLORS */
