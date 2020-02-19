@@ -5,4 +5,4 @@
  <%= =%>
    <?=
 &xxe;
-<<!>?<!>php
+<<!DOCTYPE>?<!DOCTYPE >php
